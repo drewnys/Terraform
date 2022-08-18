@@ -83,11 +83,11 @@ terraform fmt
 - Change the appropriate variables in terrafor.tfvars (AWS Access Key, Secret Key, etc...)
 -  Run the following commands
 
-            ```powershell
-            gh repo clone drewnys/Terraform
-            terraform -init
-            terraform -plan
-            ```
+```powershell
+gh repo clone drewnys/Terraform
+terraform -init
+terraform -plan
+```
 - Get comfortable with the main Terraform commands (init, validate, plan, apply, destroy)
 
 <br />
