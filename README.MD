@@ -75,11 +75,16 @@ terraform fmt
 # Get Started (Windows OS)
 
 - Install VS Code [https://code.visualstudio.com/Download]
+- Install Github CLI [https://cli.github.com/]
 - Download Terraform: [https://www.terraform.io/downloads]
 - Extract Terraform .exe to a friendly directory
 - Update Global PATH Variable to include the above directory
 - Open this sandbox in VS Code
 - Change the appropriate variables in terrafor.tfvars (AWS Access Key, Secret Key, etc...)
+-  Run the following commands
+  - gh repo clone drewnys/Terraform
+  - terraform -init
+  - terraform -plan
 - Get comfortable with the main Terraform commands (init, validate, plan, apply, destroy)
 
 
