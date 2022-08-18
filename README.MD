@@ -82,12 +82,15 @@ terraform fmt
 - Open this sandbox in VS Code
 - Change the appropriate variables in terrafor.tfvars (AWS Access Key, Secret Key, etc...)
 -  Run the following commands
-  - gh repo clone drewnys/Terraform
-  - terraform -init
-  - terraform -plan
+
+            ```powershell
+            gh repo clone drewnys/Terraform
+            terraform -init
+            terraform -plan
+            ```
 - Get comfortable with the main Terraform commands (init, validate, plan, apply, destroy)
 
-
+<br />
 <img alt="Terraform" src="./main_commands.png" width="600px">
 
 <br />
