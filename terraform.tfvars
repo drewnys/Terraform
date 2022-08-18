@@ -6,6 +6,6 @@
 region              = "us-east-2"
 access_key          = "********************"
 secret_key          = "********************"
-# assume_role = "arn:aws:iam::296630729054:role/Terraform_Admin"
+# assume_role = "arn:aws:iam::123456789101112:role/Terraform_Admin"
 example_string_list = ["us-east-1", "us-east-2", "us-west-1", "us-west-2"]
 port                = 3000
